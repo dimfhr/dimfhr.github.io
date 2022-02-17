@@ -2,7 +2,7 @@
 
     #content,
     aside {
-        width: 99%;
+        width: 98%;
         padding: 0;
     }
 
@@ -16,5 +16,19 @@
 
     nav ul {
         float: none;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        left: 250px;
+        right: 600px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .dropdown-content {
+        position: absolute;
+        left: 20px;
+        right: 700px;
     }
 }
