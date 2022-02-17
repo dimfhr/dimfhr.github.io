@@ -66,7 +66,7 @@ main {
 
 .card {
   border-radius: 25px;
-  padding: 10px;
+  padding: 30px;
   margin: 20px 5px;
   background-color: #cae8ff;
 }
@@ -133,10 +133,11 @@ footer {
 .dropdown-content {
   display: none;
   position: absolute;
-  right: 10px;
-  background-color: #f9f9f9;
+  right: 20px;
+  background-color: white;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
   z-index: 1040;
 }
 
@@ -146,9 +147,20 @@ footer {
   padding: 10px 10px;
   text-decoration: none;
   display: block;
-  text-align: right;
-  }
+  text-align: center;
+}
 
 .show {
   display: block;
+}
+
+nav a:hover,
+.dropbtn:hover {
+  color: rgb(8, 185, 255);
+}
+
+.dropdown-content a:hover {
+  background-color: #cae8ff;
+  color: #050a30;
+  border-radius: 15px;
 }
